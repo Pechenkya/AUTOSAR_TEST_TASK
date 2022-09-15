@@ -5,7 +5,9 @@
 [x] To make it possible to calculate minimum and maximum value of two arguments please implement both:
   - "MIN(a, b)" and/or "MAX(a, b)" macro-functions and
   - "Int min(int a, int b)" and/or "Int max(int a, int b)" regular functions
+  
 [x] Execute code in main
+
 [x] Please provide the output and justify it. Everything would be interesting to know.
 
 ## **Task 1.2** (For solution and explanation check Task 1.2 folder)
