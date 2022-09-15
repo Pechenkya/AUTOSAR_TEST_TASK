@@ -29,7 +29,7 @@ char* int_to_bit_str(int x, char * str, int size = (sizeof(int) * 8))
 	}
 
 	// Allocate memory and check if it was allocated properly
-	str = (char *)malloc(sizeof(int) * 8 + 3);
+	str = (char *)malloc(size + 3);
 	if (str == NULL)
 		return str;
 
