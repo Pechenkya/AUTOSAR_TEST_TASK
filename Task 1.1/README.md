@@ -1,13 +1,13 @@
 # Task 1.1 solution
 ## Code basic solutions
 
-[x] While providing min (max) function and MIN (MAX) macro I used same ternary operator, in this cases it behaves different, but still provide correct answer.
+[x] While providing the min (max) function and MIN (MAX) macro I used the same ternary operator, in these cases, it behaves differently, but still provides the correct answer.
 
-It happens, because of macro nature: when we call macro preprocessor just changes macro call by it's code by setting parameters just as expression (not a variable),
+It happens, because of macro nature: when we call macro preprocessor just changes macro call by its code by setting parameters just as expression (not a variable),
 as a result expression parameters like x1++ or ++x1 were not just calculated once and used as one value, they were called twice after macro disclosure 
 (both a were changed with ++x1).
 
-As opposite, function calls behave as we expect: expression value is calculated only once and then it's used in variable.
+Contrary, function calls behave as we expect: expression value is calculated only once and then it's used in a variable.
 
 [x] I provided tests in main() for both functions and macros to see, how it behaves.
 
