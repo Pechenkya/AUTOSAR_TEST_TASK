@@ -14,7 +14,7 @@
      - We take constant 1 (00...01)
      - Move its only nonzero bit to p-th position
      - Use negation to swap for all bits: 0 <-> 1
-     - Use and to ignore all other bits and set p-th bit to 0
+     - Use AND to ignore all other bits and set p-th bit to 0
 
   3. TGL_BIT(x, p): negate p-th bit of x
      - We take constant 1 (00...01)
