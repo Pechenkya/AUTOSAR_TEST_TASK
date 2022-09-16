@@ -7,7 +7,7 @@ It happens, because of macro nature: when we call macro preprocessor just change
 as a result expression parameters like x1++ or ++x1 were not just calculated once and used as one value, they were called twice after macro disclosure 
 (both a were changed with ++x1).
 
-Contrary, function calls behave as we expect: expression value is calculated only once and then it's used in a variable.
+On the contrary, function calls behave as we expect: expression value is calculated only once and then it's used in a variable.
 
 [x] I provided tests in main() for both functions and macros to see, how it behaves.
 
